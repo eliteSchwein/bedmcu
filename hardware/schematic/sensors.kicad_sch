@@ -2124,16 +2124,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 15.24 0)
+			(property "Reference" "U6"
+				(at 2.54 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TLV333IDBVR"
-				(at 0 -15.24 0)
+			(property "Value" "TLV333"
+				(at 4.7382 3.9465 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2267,6 +2267,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin unspecified line
 					(at -10.16 -2.54 0)
 					(length 5.08)
@@ -2289,24 +2307,6 @@
 					(at -10.16 2.54 0)
 					(length 5.08)
 					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 5.08)
-					(name "V-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10412,7 +10412,7 @@
 		(pin "1"
 			(uuid "c87a442a-b69d-4bb8-997a-dc4cbb684d69")
 		)
-		(pin "4"
+		(pin "2"
 			(uuid "401b1849-09ce-455b-807c-a28ebafc02a9")
 		)
 		(pin "4"
