@@ -1,0 +1,1 @@
+please install https://github.com/ndabas/pico-setup-windows/releases for building
