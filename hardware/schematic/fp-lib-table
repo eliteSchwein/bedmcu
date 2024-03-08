@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SamacSys_Parts")(type "Legacy")(uri "C:/Users/cubie/Documents/SamacSys_PCB_Library/KiCad/SamacSys_Parts.mod")(options "")(descr ""))
+)
